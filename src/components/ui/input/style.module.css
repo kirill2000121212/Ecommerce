@@ -1,10 +1,22 @@
-.input{
+.input {
     font-weight: 500;
     font-size: 14px;
     line-height: 175%;
-    padding: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 47px;
+    border: 1px solid #e6e7e8;
+    border-radius: 6px;
 
-    &::placeholder{
+    &::placeholder {
         color: #878a92;
     }
+}
+
+.inputWrapper {
+    position: relative;
+}
+
+.inputWrapper img{
+    position: absolute;
+    left: 15px;
+    top: 10px;
 }

@@ -1,12 +1,14 @@
 import {Layout} from "./components/layout/Layout.tsx";
-import {Container} from "./components/container/Container.tsx";
+import Offers from "@components/ui/offers/Offers.tsx";
+import WhyUs from "@/sections/whyUs/WhyUs.tsx";
+import BestSelling from "@/sections/bestSelling/BestSelling.tsx";
 
 const App = () => {
     return (
         <Layout>
-            <Container>
-                asdasd
-            </Container>
+            <Offers/>
+            <WhyUs/>
+            <BestSelling/>
         </Layout>
     );
 };

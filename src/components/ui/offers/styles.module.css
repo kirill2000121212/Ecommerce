@@ -1,0 +1,28 @@
+.section {
+    background: #f6f6f6;
+    padding-top: 68px;
+}
+
+.section h2 {
+    font-weight: 600;
+    font-size: 32px;
+    letter-spacing: -0.04em;
+    padding-bottom: 12px;
+}
+
+.section p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 175%;
+    color: #474b57;
+    padding-bottom: 48px;
+}
+
+.sectionWrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sectionInfo{
+    padding-top: 68px;
+}

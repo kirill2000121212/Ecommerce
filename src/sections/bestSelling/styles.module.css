@@ -1,0 +1,29 @@
+.bestSelling{
+    padding:72px 0 168px ;
+
+}
+
+.bestSellingTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bestSellingTitleInner{
+    text-align: left;
+}
+
+.bestSellingTitleInner p {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 200%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #878a92;
+}
+
+.bestSellingTitleInner h3{
+    font-weight: 700;
+    font-size: 24px;
+    padding-bottom: 80px;
+}

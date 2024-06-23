@@ -1,0 +1,32 @@
+.header {
+}
+
+.headerWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 103px;
+}
+
+.ul {
+    display: flex;
+    gap: 32px;
+    color: #5c5f6a;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 175%;
+}
+
+.inputWrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    align-items: center;
+}

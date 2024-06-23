@@ -1,0 +1,35 @@
+.product{
+    display: flex;
+    flex-direction: column;
+}
+
+.productImage{
+    margin-bottom: 24px;
+    background:  #f6f6f6;
+}
+
+.productName {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 175%;
+    padding-bottom: 12px;
+}
+
+.productInfo{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.productStock{
+    border: 1px solid #e6e7e8;
+    padding: 2px 16px;
+    border-radius: 12px;
+    text-transform: uppercase;
+}
+
+.productPrice{
+    font-size: 14px;
+    line-height: 175%;
+    color: #474b57;
+}
