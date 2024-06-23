@@ -1,7 +1,7 @@
 import {Container} from "../container/Container.tsx";
-import Logo from  "@public/logo.svg"
+import Logo from "@public/logo.svg"
 import {Link} from "react-router-dom";
-import Input from '@mui/material/Input';
+import Input from '@components/ui/input/Input.tsx';
 import Search from '@/assets/icons/sharedIcons/Search.svg'
 import Cart from '@/assets/icons/sharedIcons/Cart.svg'
 import ProfileUser from '@/assets/icons/sharedIcons/ProfileUser.svg'
@@ -10,8 +10,10 @@ export const Header = () => {
     return (
         <header>
             <Container>
-                <img src={Logo} alt="Logo"/>
                 <nav>
+                    <Link to={'/'}>
+                        <img src={Logo} alt="Logo"/>
+                    </Link>
                     <ul>
                         <li>
                             <Link to={'/'}>Home</Link>
@@ -27,11 +29,17 @@ export const Header = () => {
                         </li>
                     </ul>
                 </nav>
-                <Input placeholder='Search products' startAdornment={
-                    <img src={Search} alt="Search"/>
-                }/>
-                <button><img src={Cart} alt="Cart"/>hahahahaha</button>
-                <button><img src={ProfileUser} alt="ProfileUser"/></button>
+                <div>
+                    <Input placeholder='Search products'>
+                        <img src={Search} alt="Search"/>
+                    </Input>
+                    <Link to={'/'}>
+                        <img src={Cart} alt="Cart"/>
+                    </Link>
+                    <Link to={'/'}>
+                        <img src={ProfileUser} alt="ProfileUser"/>
+                    </Link>
+                </div>
             </Container>
         </header>
     );
