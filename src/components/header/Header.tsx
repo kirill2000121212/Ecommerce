@@ -30,7 +30,7 @@ export const Header = () => {
                 <Input placeholder='Search products' startAdornment={
                     <img src={Search} alt="Search"/>
                 }/>
-                <button><img src={Cart} alt="Cart"/></button>
+                <button><img src={Cart} alt="Cart"/>hahahahaha</button>
                 <button><img src={ProfileUser} alt="ProfileUser"/></button>
             </Container>
         </header>
