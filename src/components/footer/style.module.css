@@ -1,3 +1,90 @@
 .footer {
     flex: 0 0 auto;
 }
+
+.footerWrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 74px 0 104px 0;
+}
+
+.social{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    max-width: 272px;
+}
+
+.social img{
+    padding-bottom: 12px;
+}
+
+.social p{
+    padding-bottom: 32px;
+    font-size: 14px;
+    line-height: 175%;
+    color: #5c5f6a;
+}
+
+.socialList{
+    display: flex;
+    gap: 24px;
+}
+
+.footerList{
+    display: flex;
+    justify-content: space-between;
+    gap: 72px;
+}
+
+.footerListItem{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    text-align: start;
+}
+
+.footerListItem p{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 175%;
+    text-transform: uppercase;
+    color: #878a92;
+}
+
+.footerListItem ul{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 175%;
+    color: #5c5f6a;
+}
+
+.acceptedPayments{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    text-align: start;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 175%;
+    color: #878a92;
+    text-transform: uppercase;
+}
+
+.acceptedPaymentsImages{
+    display: flex;
+    gap: 24px;
+}
+
+.copyright{
+    font-size: 14px;
+    line-height: 175%;
+    padding: 27px 0;
+    text-align: center;
+    color: #5c5f6a;
+    border-top: 1px solid #f6f6f6;
+}
+
