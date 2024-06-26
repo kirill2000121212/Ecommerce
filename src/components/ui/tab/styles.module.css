@@ -1,0 +1,17 @@
+.tabBtn{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 175%;
+    color: #5c5f6a;
+    border: 1px solid transparent;
+    border-radius: 16px;
+    padding: 3px 16px;
+
+}
+
+
+
+.tabBtn.tabActive{
+    border: 1px solid #e9e9eb;
+    color: #202533;
+}

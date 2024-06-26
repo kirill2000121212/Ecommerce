@@ -1,5 +1,5 @@
 import styles from "./style.module.css"
-import {Container} from "@components/container/Container.tsx";
+import {Container} from "@components/simple/container/Container.tsx";
 import {Link} from "react-router-dom";
 import LogoFooter from '@public/logoFooter.svg'
 import Git from '@/assets/icons/socialIcon/Github.svg'

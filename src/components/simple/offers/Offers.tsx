@@ -1,5 +1,5 @@
 import styles from './styles.module.css';
-import {Container} from "@components/container/Container.tsx";
+import {Container} from "@components/simple/container/Container.tsx";
 import {Button} from "@mui/material";
 import ArrowRight from "@/assets/icons/sharedIcons/Arrow Right.svg";
 import Man from "@public/man.png";

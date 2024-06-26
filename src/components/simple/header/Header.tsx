@@ -1,4 +1,4 @@
-import {Container} from "../container/Container.tsx";
+import {Container} from "@components/simple/container/Container.tsx";
 import Logo from "@public/logo.svg"
 import {Link} from "react-router-dom";
 import Input from '@components/ui/input/Input.tsx';

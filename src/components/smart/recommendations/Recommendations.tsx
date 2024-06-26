@@ -1,5 +1,6 @@
-import ProductList from "@components/productList/ProductList.tsx";
-import {Container} from "@components/container/Container.tsx";
+import ProductList from "@components/simple/productList/ProductList.tsx";
+import {Container} from "@components/simple/container/Container.tsx";
+import TabList from "@components/ordinary/tabList/TabList.tsx";
 import styles from './styles.module.css'
 
 const prodArray = [{
@@ -20,20 +21,15 @@ const prodArray = [{
     price: 35
 }]
 
-const BestSelling = () => {
+const Recommendations = () => {
     return (
-        <section className={styles.bestSelling}>
+        <section className={styles.recommendations}>
             <Container>
-                <div className={styles.bestSellingTitle}>
-                    <div className={styles.bestSellingTitleInner}>
-                        <p>Shop Now</p>
-                        <h3>Best Selling</h3>
-                    </div>
-                </div>
+                <TabList/>
                 <ProductList productList={prodArray}/>
             </Container>
         </section>
     );
 };
 
-export default BestSelling;
+export default Recommendations;

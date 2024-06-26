@@ -1,5 +1,5 @@
 import {FC} from "react";
-import {TYPE_PRODUCT_ITEM} from "@components/productItem/type.ts";
+import {TYPE_PRODUCT_ITEM} from "@components/simple/productItem/type.ts";
 import TShirt from "@public/product.png"
 import styles from './styles.module.css'
 

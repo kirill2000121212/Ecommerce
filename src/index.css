@@ -29,3 +29,7 @@ a{
     color: inherit;
 }
 
+button{
+    background: none;
+    border: none;
+}

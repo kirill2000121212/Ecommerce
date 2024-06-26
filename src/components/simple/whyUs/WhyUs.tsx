@@ -2,7 +2,7 @@ import Delivery from '@/assets/icons/sharedIcons/Delivery.svg'
 import StarBadge from '@/assets/icons/sharedIcons/Star Badge.svg'
 import ShieldCheck from '@/assets/icons/sharedIcons/Shield Check.svg'
 import styles from './styles.module.css'
-import {Container} from "@components/container/Container.tsx";
+import {Container} from "@components/simple/container/Container.tsx";
 
 const WhyUs = () => {
     return (
