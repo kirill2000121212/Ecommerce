@@ -1,0 +1,37 @@
+.newsletter{
+    padding: 64px 0 ;
+    background-color: #f6f6f6;
+}
+
+.newsletterWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.newsletterText{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.newsletterText h2 {
+    font-weight: 700;
+    font-size: 24px;
+    color: #0e1422;
+}
+
+.newsletterText p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 175%;
+    color: #5c5f6a;
+}
+
+.newsletterUi{
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+    width: 452px;
+}
+

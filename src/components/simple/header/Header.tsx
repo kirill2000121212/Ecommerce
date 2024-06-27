@@ -37,7 +37,7 @@ export const Header = () => {
                             <Link to={'/'}>
                                 <img src={Cart} alt="Cart"/>
                             </Link>
-                            <Link to={'/'}>
+                            <Link to={'/signup'}>
                                 <img src={ProfileUser} alt="ProfileUser"/>
                             </Link>
                     </div>
