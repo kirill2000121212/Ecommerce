@@ -7,8 +7,8 @@ const ProductList: FC<TYPE_PRODUCT_LIST> = ({productList}) => {
     return (
         <div className={styles.productList}>
             {
-                productList.map(({productName,inStock,price})=>(
-                    <ProductItem productName={productName} inStock={inStock} price={price}/>
+                productList.map(({productName,inStock,price}, index)=>(
+                    <ProductItem key={index} productName={productName} inStock={inStock} price={price}/>
                 ))
             }
         </div>
