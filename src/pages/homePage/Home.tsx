@@ -7,14 +7,14 @@ import Newsletter from "@components/simple/newsletter/Newsletter.tsx";
 
 const Home = () => {
     return (
-        <div>
+        <section>
             <Offers/>
             <WhyUs/>
             <BestSelling/>
             <FashionParadise/>
             <Recommendations/>
             <Newsletter/>
-        </div>
+        </section>
     );
 };
 

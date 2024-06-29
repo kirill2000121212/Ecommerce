@@ -13,7 +13,10 @@ const TabList = () => {
     return (
         <div className={styles.tabs}>
             {tabsArray.map((value,index)=>(
-                <Tab  isActive={index === tabActive} onClick={() => tabHandler(index)}>{value}</Tab>
+                <Tab 
+                key={value} 
+                isActive={index === tabActive} 
+                onClick={() => tabHandler(index)}>{value}</Tab>
             ))}
         </div>
     );

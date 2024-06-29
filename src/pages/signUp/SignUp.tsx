@@ -4,11 +4,11 @@ import styles from './styles.module.css'
 
 const SignUp = () => {
     return (
-        <div className={styles.signUp}>
+        <section className={styles.signUp}>
             <Container>
                 <PageNavigation namePage='Sign Up'/>
             </Container>
-        </div>
+        </section>
     );
 };
 
