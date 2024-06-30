@@ -26,3 +26,10 @@
 .label:not(:has(img)) .input{
     padding: 10px 10px 10px 15px;
 }
+
+.label{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 175%;
+    color: #474b57;
+}

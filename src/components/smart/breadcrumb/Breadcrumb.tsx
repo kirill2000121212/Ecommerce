@@ -12,6 +12,7 @@ export default function Breadcrumb() {
             <Breadcrumbs separator="›" aria-label="breadcrumb">
                 {
                     location.map(({id,pathname,handle})=>(
+
                         <NavLink
                             to={pathname}
                             key={id}
