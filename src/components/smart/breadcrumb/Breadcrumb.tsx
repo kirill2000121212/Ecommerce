@@ -1,18 +1,18 @@
 import Breadcrumbs from '@mui/material/Breadcrumbs';
-import {NavLink} from 'react-router-dom';
+import {NavLink, UIMatch} from 'react-router-dom';
 import Stack from '@mui/material/Stack';
 import {useMatches} from "react-router-dom";
 import styles from './styles.module.css'
 
+
 export default function Breadcrumb() {
-    let location = useMatches();
+    let location : UIMatch[] = useMatches();
 
     return (
         <Stack spacing={2}>
             <Breadcrumbs separator="›" aria-label="breadcrumb">
                 {
-                    location.map(({id,pathname,handle})=>(
-
+                    location.map(({id,pathname,handle} : UIMatch)=>(
                         <NavLink
                             to={pathname}
                             key={id}
