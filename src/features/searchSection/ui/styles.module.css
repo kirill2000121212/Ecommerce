@@ -1,0 +1,9 @@
+.searchSectionList{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.searchSectionItem{
+    border-bottom:1px solid #e9e9eb;
+}

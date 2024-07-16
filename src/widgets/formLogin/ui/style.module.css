@@ -1,0 +1,76 @@
+.loginPassword{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 200%;
+    text-transform: capitalize;
+    display: flex;
+    color: #474b57;
+    justify-content: end;
+}
+
+.formSignUp{
+    padding: 128px 0 148px;
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+.signUpGoogle{
+    border: 1px solid #b6b7bc;
+    border-radius: 4px;
+    padding: 12px 24px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 175%;
+    color: #5c5f6a;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+.signUpOr{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 200%;
+    letter-spacing: 0.05em;
+    color: #5c5f6a;
+    padding-bottom: 34px;
+}
+
+.signUpOr hr{
+    width: 100%;
+    border: 1px solid #e6e7e8;
+}
+
+.signUpInputs{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-bottom: 16px;
+}
+
+.signUpCreate{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.signUpLogin{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 175%;
+    color: #5c5f6a;
+    text-align: center;
+}
+
+.errorText {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 200%;
+    color: red;
+}
