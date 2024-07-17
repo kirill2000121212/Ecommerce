@@ -1,5 +1,5 @@
 import {createSlice} from '@reduxjs/toolkit'
-import {I_CHECKBOX} from "@/slices/types.ts";
+import {I_CHECKBOX} from "@/features/filterCategories/model/slices/types.ts";
 
 const initialState: I_CHECKBOX[] =
     [{

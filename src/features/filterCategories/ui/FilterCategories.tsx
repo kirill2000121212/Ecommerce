@@ -1,9 +1,9 @@
 import {useDispatch, useSelector} from "react-redux";
-import {checkCheckbox} from '@/slices/checkboxSlice.ts'
+import {checkCheckbox} from '@/features/filterCategories/model/slices/checkboxSlice.ts'
 import styles from './styles.module.css'
 import CheckBoxItem from "@/shared/ui/checkBoxItem/CheckBoxItem.tsx";
 
-const SearchSection = () => {
+const FilterCategories = () => {
     const selector = useSelector(({checkboxSlice}) => checkboxSlice)
 
     const dispatch = useDispatch()
@@ -34,4 +34,4 @@ const SearchSection = () => {
     );
 };
 
-export default SearchSection;
+export default FilterCategories;

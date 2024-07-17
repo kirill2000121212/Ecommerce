@@ -1,5 +1,5 @@
 import {configureStore} from "@reduxjs/toolkit";
-import checkboxSlice from "@/slices/checkboxSlice.ts";
+import checkboxSlice from "@/features/filterCategories/model/slices/checkboxSlice.ts";
 
 export const store = configureStore({
     reducer: {
