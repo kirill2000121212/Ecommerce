@@ -1,0 +1,13 @@
+import styles from './styles.module.css'
+
+const YellowIcon = () => {
+    return (
+        <div className={styles.hidden}>
+            <div className={styles.color}>
+
+            </div>
+        </div>
+    );
+};
+
+export default YellowIcon;

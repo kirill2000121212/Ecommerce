@@ -1,28 +1,24 @@
 import {useDispatch, useSelector} from "react-redux";
 import {checkCheckbox} from '@/features/filterCategories/model/slices/checkboxSlice.ts'
 import styles from './styles.module.css'
-import CheckBoxItem from "@/shared/ui/checkBoxItem/CheckBoxItem.tsx";
+import CheckboxItem from "@/shared/ui/checkboxCategories/CheckboxItem.tsx";
 
 const FilterCategories = () => {
     const selector = useSelector(({checkboxSlice}) => checkboxSlice)
-
     const dispatch = useDispatch()
 
     const onChecked = (label) => {
         dispatch(checkCheckbox(label))
-        console.log(selector)
     }
 
     return (
-        <section>
-            <div>
-                <p>Categories</p>
-                <ul className={styles.searchSectionList}>
+            <div className={styles.FilterCategories}>
+                <p className={styles.filterCategoriesLabel}>Categories</p>
+                <ul className={styles.filterCategoriesList}>
                     {
                         selector?.map(({label}) => (
-                            <li className={styles.searchSectionItem}>
-                            <CheckBoxItem
-                                key={label}
+                            <li className={styles.filterCategoriesItem} key={label}>
+                            <CheckboxItem
                                 label={label}
                                 onChange={() => onChecked(label)}/>
                             </li>
@@ -30,7 +26,6 @@ const FilterCategories = () => {
                     }
                 </ul>
             </div>
-        </section>
     );
 };
 

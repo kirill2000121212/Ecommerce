@@ -1,0 +1,12 @@
+.filterColorList{
+    display: flex;
+    gap: 10px;
+}
+
+.filterColorText{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 175%;
+    color: #0e1422;
+    padding-bottom: 12px;
+}

@@ -1,0 +1,11 @@
+.filterSideBar{
+    border: 1px solid #e6e7e8;
+    border-radius: 6px;
+    padding: 24px 12px 0 16px;
+    max-width: 248px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 32px;
+    max-height: 828px;
+}

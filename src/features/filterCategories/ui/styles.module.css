@@ -1,9 +1,22 @@
-.searchSectionList{
+.filterCategoriesList{
     display: flex;
     flex-direction: column;
     gap: 10px;
+    padding-right: 16px;
 }
 
-.searchSectionItem{
+.filterCategoriesItem{
     border-bottom:1px solid #e9e9eb;
+    color: #474b57;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 175%;
+}
+
+.filterCategoriesLabel{
+    padding-bottom: 16px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 175%;
+    color: #0e1422;
 }

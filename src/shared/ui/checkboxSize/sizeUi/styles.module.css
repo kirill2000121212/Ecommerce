@@ -1,0 +1,19 @@
+.icon{
+    color: #5c5f6a;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 200%;
+    padding: 8px 16px;
+    border: 1px solid #e6e7e8;
+    border-radius: 4px;
+}
+
+.activeIcon{
+    color: #0e1422;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 200%;
+    padding: 8px 16px;
+    border: 1px solid #0e1422;
+    border-radius: 4px;
+}

@@ -1,0 +1,13 @@
+.fIlterSizeList{
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.fIlterSizeText{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 175%;
+    color: #0e1422;
+    padding-bottom: 12px;
+}

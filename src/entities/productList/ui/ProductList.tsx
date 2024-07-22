@@ -1,7 +1,7 @@
 import {FC} from "react";
 import styles from './styles.module.css'
 import ProductItem from "@/entities/productItem/ui/ProductItem.tsx";
-import {TYPE_PRODUCT_LIST} from "@/widgets/productList/ui/types.ts";
+import {TYPE_PRODUCT_LIST} from "@/entities/productList/ui/types.ts";
 
 const ProductList: FC<TYPE_PRODUCT_LIST> = ({productList}) => {
     return (

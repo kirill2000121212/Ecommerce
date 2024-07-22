@@ -1,7 +1,7 @@
 import styles from './styles.module.css'
 import {Container} from "@/shared/ui/container/Container.tsx";
-import TabList from "@/widgets/tabList/ui/TabList.tsx";
-import ProductList from "@/widgets/productList/ui/ProductList.tsx";
+import TabList from "@/features/tabList/ui/TabList.tsx";
+import ProductList from "@/entities/productList/ui/ProductList.tsx";
 
 const prodArray = [{
     productName: 'Classic Monochrome Tees',

@@ -1,6 +1,6 @@
 import styles from './styles.module.css'
 import {Container} from "@/shared/ui/container/Container.tsx";
-import ProductList from "@/widgets/productList/ui/ProductList.tsx";
+import ProductList from "@/entities/productList/ui/ProductList.tsx";
 
 const prodArray = [{
     productName: 'Classic Monochrome Tees',
